@@ -10,12 +10,14 @@ function suso.str_heads:call
 
 The get value is an int that specifies which parts of the data you're requesting. You can obtain it by multiplying the values of the elements you want:
 
-time: 2
-id: 3
-name: 5
-sig: 7
-skin: 11
+```
+time:   2
+id:     3
+name:   5
+sig:    7
+skin:  11
 model: 13
-cape: 17
+cape:  17
+```
 
 These are returned as part of an nbt object: `storage suso.str_heads:io out`.
