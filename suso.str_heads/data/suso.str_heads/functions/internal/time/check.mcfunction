@@ -1,0 +1,2 @@
+execute store success score $late suso.str_heads run data modify storage suso.str_heads:internal time set from block ~ ~ ~1 LastOutput
+execute if score $counter suso.str_heads matches 2.. if score $late suso.str_heads matches 1 run function suso.str_heads:internal/time/fix
