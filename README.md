@@ -5,6 +5,7 @@ A Minecraft datapack that allows to parse player head data into a useable format
 ```mcfunction
 data modify storage suso.str_heads:io in set value {string:"",get:[GET]}
 data modify storage suso.str_heads:io in.string set from block [COORDS] SkullOwner.Properties.textures[0].Value
+data modify storage suso.str_heads:io in.callback set value 'tellraw @a {"nbt":"out","storage":"suso.str_heads:io","interpret":true}'
 function suso.str_heads:call
 ```
 
