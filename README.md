@@ -1,5 +1,5 @@
-# Head-Parser
-A Minecraft datapack that allows to parse player head data into a useable format.
+# Head-Parser (deprecated)
+A Minecraft datapack that allows to parse player head data into a useable format. It has now been merged into the [general string parser](https://github.com/5uso/String-Parser).
 
 ## How to use
 ```mcfunction
